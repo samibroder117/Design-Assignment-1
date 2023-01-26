@@ -1,0 +1,112 @@
+body {
+  max-width: 305px;
+  max-height: 700px;
+  margin: 0 auto;
+  text-align: center;
+  border: 10px solid black;
+  border-radius: 25px;
+  padding: 8px;
+  background-image: linear-gradient(rgb(208, 237, 241), white);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  background-color: rgb(216, 215, 215);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 25px;
+  border: 0px;
+  padding: 5px;
+}
+
+h1 {
+  margin: 0;
+  font-size: xxx-large;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 85px;
+  float: left;
+  margin: 0px;
+  font-weight: 1000;
+}
+
+sup {
+  font-size: large;
+  font-weight: 100;
+}
+
+span {
+  display: inline-block;
+  width: 30%;
+}
+
+.description {
+  font-size: large;
+  font-weight: 100;
+  padding: 0%;
+
+}
+
+.container {
+  display: grid;
+  align-items: auto;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0px;
+
+}
+
+
+
+.largeimg {
+  float: right;
+  display: inline;
+  margin: 0px;
+}
+
+.flexbox {
+  display: flex;
+  max-height: 100px;
+  line-height: 10%;
+}
+
+.flexbox > div {
+  background-color: rgb(245, 208, 88);
+  margin: 1px;
+  padding: 10px;
+  font-size: small;
+  border-radius: 25px;
+  width: 100%;
+}
+
+section > .lowhigh {
+  background-color: rgb(118, 191, 208);
+  max-width: 22%;
+}
+
+p.temp {
+  font-size: 45px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+table {
+  background-color: rgb(216, 215, 215);
+  border-radius: 25px;
+  width: 100%;
+  padding: 5px;  
+}
+
+td.col1 {
+  text-align: left;
+  font-size: large;
+
+}
+
+section {
+  padding: 3px;
+}
+
+
